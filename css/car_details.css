@@ -1,0 +1,161 @@
+html,body{
+	height: 100% !important;
+	width: 100% !important;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.workspace{
+	min-height: 300px !important;
+	width: 100% !important;
+	//background-color: red;
+	margin-left: none !important;
+	margin: 0 !important;
+}
+.workspace > .contents{
+	height: 100%;
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+.workspace > .contents > .cardata{
+	background-color: red;
+	
+	width: 100%;
+}
+.workspace > .contents > .cardata > .imcar{
+	height: 10em;
+	width: 13em;
+	float: left;
+}
+.workspace > .contents > .cardata > .cdet{
+	float: right;
+	
+}
+.workspace > .contents > .cardata > .cdet > h2{
+	font-size: 1em !important;
+}
+.workspace > .contents > .chead{
+	width: 100%;
+}
+.workspace > .contents > .chead > .menu{
+	width: 33%;
+
+	float: left;
+	font-size: 1em !important;
+}
+.workspace > .contents > .dsummary{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	left: 10%;
+	border-style: solid;
+	border-color: rgba(58,60,58,.2);
+	border-width: 1px;
+	border-top-color: #fff;
+}
+.workspace > .contents > .dsummary > .data{
+	width: 100%;
+	min-height: 50px;
+	margin-bottom: 	10px
+	background-color: red;
+	margin-left: 10%;
+}
+.workspace > .contents > .dsummary > .data > .var1{
+	/*background-color: red;*/
+	float: left;
+	width: 50%;
+}
+.workspace > .contents > .dsummary > .data > .var1 > h3{
+	font-size: 18px !important;
+	
+}
+.workspace > .contents > .dsummary > .data > .var1 > h3 > span{
+	float: right;
+	
+}
+.workspace > .contents > .dsummary > .data > .value > span{
+	font-size: 20px !important;
+	
+}
+.workspace > .contents > .dsummary > .data > .value{
+	float: left;
+	margin-left: 15%;
+}
+#dspec,#dcolor{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.workspace > .contents > .dspec{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	left: 10%;
+	border-style: solid;
+	border-color: rgba(58,60,58,.2);
+	border-width: 1px;
+	border-top-color: #fff;
+}
+.workspace > .contents > .dspec > .data{
+	width: 100%;
+	min-height: 50px;
+	margin-bottom: 	10px
+	background-color: red;
+	margin-left: 10%;
+}
+.workspace > .contents > .dspec > .data > .var1{
+	/*background-color: red;*/
+	float: left;
+	width: 50%;
+}
+.workspace > .contents > .dspec > .data > .var1 > h3{
+	font-size: 18px !important;
+	
+}
+.workspace > .contents > .dspec > .data > .var1 > h3 > span{
+	float: right;
+	
+}
+.workspace > .contents > .spec > .data > .value > span{
+	font-size: 20px !important;
+	
+}
+.workspace > .contents > .dspec > .data > .value{
+	float: left;
+	margin-left: 15%;
+}
+
+
+
+
+
+
+
+.workspace > .contents > .dcolor{
+	//background-color: red;
+	min-height: 300px;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.workspace > .contents > .dcolor > .col{
+	//background-color: yellow;
+	margin: 5px 5px;
+	height: 80px;
+	width: 100px;
+	float: left;
+}
+.workspace > .contents > .dcolor > .col > .cldata{
+	font-size: .8em;
+}
+.workspace > .contents > .dcolor > .col > .cl{
+	height: 50%;
+}

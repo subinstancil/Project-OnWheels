@@ -1,0 +1,59 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.workspace{
+	
+
+}
+.workspace > .content{
+	width: 60%;
+	position: relative;
+	left: 20%;
+}
+.workspace > .content > .ucardata > .imcar{
+	width: 40%;
+	height: 200px;
+	float: left;
+}
+.workspace > .content > .ucardata > .udata{
+	
+	width: 50%;
+
+	float: right;
+
+}
+
+
+
+
+
+
+.workspace > .content > .data{
+	width: 100%;
+	min-height: 50px;
+	margin-bottom: 	10px
+	background-color: red;
+	margin-left: 10%;
+}
+.workspace > .content > .data > .var1{
+	/*background-color: red;*/
+	float: left;
+	width: 40%;
+}
+.workspace > .content > .data > .var1 > h3{
+	font-size: 18px !important;
+	
+}
+.workspace > .content > .data > .var1 > h3 > span{
+	float: right;
+	
+}
+.workspace > .content > .data > .value > span{
+	font-size: 20px !important;
+	
+}
+.workspace > .content > .data > .value{
+	float: left;
+	margin-left: 15%;
+}

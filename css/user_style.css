@@ -1,0 +1,26 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.log  input[type="button"]{
+	height: 50px;
+	width: 300px;
+	margin-top: 30px;
+	border: none;
+	color: #fff;
+	
+}
+.log > input[type="button"]#log{
+	background-color: #f42d40;
+	
+}
+.log > a > input[type="button"]#chg{
+	background-color: #3ad7ce;
+	margin-bottom: 30px;
+}
+.log > a > input[type="button"]#chg:hover{
+	background-color: #24a8a0;
+}
+.log > input[type="button"]#log:hover{
+	background-color: #b21f2d;
+}

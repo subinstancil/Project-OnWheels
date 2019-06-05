@@ -1,0 +1,57 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.space{
+	width: 100%;
+}
+
+.space > .space2{
+	width: 60%;
+	position: relative;
+	left: 20%;
+	border-color: #53b4d9;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	margin-top: 3%;
+}
+.space > .space2 > form > .n{
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+.space > .space2 > form > .n > label{
+	width: 30%;
+	font-weight: normal;
+}
+
+.space > .space2 > form > .n > input{
+	width: 50%;
+	height: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #53b4d9;
+	color: #797c7d;
+	font-size: 14px;
+}
+
+
+.space > .space2 > form > .n > input[type="file"]{
+	float: right;
+	width: 50%;
+	margin-right: 20%;
+
+}
+
+.space > .space2 > form > center > input[type="submit"]{
+	
+	width: 30%;
+	height: 40px;
+	color: #fff;
+	background-color: #2c2f30;
+	border: none;
+}
+.space > .space2 > form > center > input[type="submit"]:hover{
+	background-color: #53b4d9;
+}
+

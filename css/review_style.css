@@ -1,0 +1,57 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+.workspace{
+	
+}
+.workspace > .content{
+	width: 60%;
+	position: relative;
+	left: 20%;
+	
+} 
+.workspace > .content > .main >.img > img{
+	height: 200px !important;
+	width: 300px !important;
+}
+.workspace > .content > .main{
+
+}
+.workspace > .content > .main > .img{
+	float: left;
+}
+.workspace > .content > .main > .ratings{
+	float: left;
+	margin-left: 20%;
+	width: 40%;
+}
+.workspace > .content > .main > .ratings > h3{
+	
+	width: 50%;
+	text-align: left;
+	margin-right: 30px;
+	font-size: 20px;
+}
+.workspace > .content > .main > .ratings > h3 > span{
+	float: right;
+}
+
+
+.workspace > .content > .details{
+	
+}
+
+.workspace > .content > .details > .top{
+	margin-bottom: 4%;
+	margin-left: 10%;
+	border-right-style: solid;
+}
+
+.workspace > .content > .details > .bottom{
+	
+	margin-left: 20%;
+
+}
+

@@ -1,0 +1,270 @@
+html,body{
+	height: 100%;
+	width:100%;
+	margin: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background:#ffffff;
+}
+
+/*style for newcars */
+
+.nwcar_main{
+	height: 50%;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	background-color: #ffffff;
+	 
+
+}
+.nwcar_main  .pleft{
+	height: 100%;
+	width: 19.9%;
+	background-color: #323333;
+	position: relative;
+	float: left;
+	color:#fff;
+	
+}
+.nwcar_main .pright{
+	width:  80%;
+	height: 100%;
+	//background-color: #e3e6e6;
+	float: right;
+	position: relative;
+	padding: 10px 10px;
+	
+	border-style: solid;
+	border-width: 2px;
+	border-color: #323333;
+	border-left-color: #fff;
+}
+
+.nwcar_main .pleft ul li {
+	width: 100%;
+	margin-left: 0px;
+}
+.nwcar_main .pleft ul {
+	width: 100%;
+	margin:0px;
+	padding: 10px 0px;
+}
+
+.pleft > .nav > li > a{
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 10px 60px;
+  text-transform: none !important;
+  font-weight: normal !important;
+  cursor: pointer;
+}
+.pleft > .nav > li > a > label{
+	cursor: pointer;
+	font-weight: normal;
+}
+.pleft > .nav > li > a:hover{
+	color: #ffffff !important;
+	background-color: #1bd6f2;
+}
+.pleft > .nav > .active > a{
+  background-color: #1bd6f2;
+  color: #000;
+}
+
+.nwcar_main > .pright img{
+	height: 100px!important;
+	width: 100px !important;
+}
+
+#budata,#brdata,#fdata{
+	display: none;
+}
+
+.nwcar_main > .pright > .brand > .emb:hover{
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 1px;
+}
+
+.nwcar_main > .pright > .bud > .bud1{
+	float: left;
+	width: 20%;
+	align-items: center;
+	margin-top: 10%;
+	margin-left: 4%;
+
+}
+.nwcar_main > .pright > .bud > .bud1 a{
+
+	color: #494a4a;
+	font-weight: normal !important;
+}
+
+.nwcar_main > .pright > .bud > .bud1 a:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+.nwcar_main > .pright >.cartype > a > .ctype{
+	height: 9%;
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+
+
+}
+
+.nwcar_main > .pright >.cartype > a > .ctype > .image > img{
+	width: 100% !important;
+}
+
+.nwcar_main > .pright >.cartype > a {
+	color: #000;
+}
+
+.nwcar_main > .pright > .fuel > .fuel1 {
+
+	float: left;
+	width: 20%;
+	align-items: center;
+	margin-top: 10%;
+	margin-left: 4%;
+}
+
+.nwcar_main > .pright > .fuel > .fuel1 a {
+
+	color: #494a4a;
+	font-weight: normal !important;
+}
+
+.nwcar_main > .pright > .fuel > .fuel1 > center > a > h4 >label:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+
+/*style for viewb*/
+
+
+.workspace {
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+
+}
+
+.workspace > .car {
+	height: 20%;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	
+	margin-bottom: 2%;
+}
+
+.workspace > .car:hover{
+	box-shadow: 1px 1px 20px ;
+	cursor: pointer;
+}
+
+.workspace > .car > .cimg{
+	width: 20%;
+	height: 100% !important;
+	float: left;
+}
+
+.workspace > .car > .cimg > img{
+
+	height: 90% !important;
+	width: 90% !important;
+	padding: 10% 10%;
+}
+
+.workspace > .car > .cname{
+	float: left;
+	margin-left: 10%;
+
+}
+.workspace > .car > .cname > a > label{
+	font-size: 16px !important;
+	color: #2c2e2f;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.workspace > .car > .cdata{
+	float: right;
+	margin-right: 5%;
+	font-size: 12px !important;
+	color:#666c6e !important;
+}
+
+.workspace > .content{
+	width: 100%;
+	height: 30%;
+	margin-top: none !important;
+	margin-bottom: 10px;
+}
+
+.workspace > .content:hover{
+	box-shadow: 1px 1px 10px;
+	cursor: pointer;
+}
+
+.workspace > .content > .img{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.workspace > .content > .data{
+	width: 70%;
+	float: right;
+	padding: 5% 5%;
+	color: #85898a ;
+	font-size: 13px;
+}
+
+.workspace112 {
+	width: 60%;
+	
+	position: relative;
+	left: 20%;
+	padding: 2%;
+	
+}
+
+.workspace112 > .content{
+	
+	
+	height: 100%;
+	width: 100%;
+	padding: 2%;
+	margin-bottom: 2%;
+	border-color: rgba(58,60,58,.2);
+	border-style: solid;
+	border-left-color: white;
+	border-width: 1px;
+	
+	}
+.workspace112 > .content > .img{
+	width: 20%;
+	height: 100%;
+	
+	float: left;
+
+}
+.workspace112 > .content > .img > img{
+	height: 100px !important;
+	width: 150px !important;
+}
+.workspace112 > .content:hover{
+	box-shadow: 1px 1px 10px;
+	cursor: pointer;
+}
+.workspace112 > .content > .data1{
+	font-size: 12px !important;
+}

@@ -1,0 +1,40 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-appearance: none;
+
+	display: block;
+	margin: 30px 0;
+	padding: 0 50px 0 10px;
+	background: url(icons/select.png) no-repeat 95% center;
+	background-color: #424668;
+	color: #fff;
+	border-radius: 4px;
+	border: 2px solid #fff;
+	width: 100%;
+	font-weight: bolder;
+}
+select option{
+	padding: 10px 0 10px 10px;
+	font-weight: normal;
+}	
+.buttn{
+	background : #4589f7;
+	padding: 15px;
+	color: #fff;
+	font-size: 20px
+	letter-spacing: 0.1em;
+	border-radius: 4px;
+	border: 0px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+	width: 100%;
+	font-weight: bolder;
+}
+.buttn:hover{
+	background: #3d7ce2;
+}
